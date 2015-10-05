@@ -37,14 +37,14 @@ class censusApp
             ),
             array(
                 'label' => 'Select State',
-                'desc' => 'A description for the field.',
+                'desc' => 'Please select a state.',
                 'id' => $prefix . 'state_select',
                 'type' => 'select'
             ),
             array(
-                'label' => 'Repeatable',
-                'desc' => 'A description for the field.',
-                'id' => $prefix . 'repeatable',
+                'label' => 'Housing variables',
+                'desc' => 'Please enter the housing variables, for more info <a href="http://api.census.gov/data/2010/sf1/variables.html">Census Variables</a>.',
+                'id' => $prefix . '_hs_variables',
                 'type' => 'repeatable'
             )
         );
