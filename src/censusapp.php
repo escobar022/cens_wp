@@ -43,7 +43,7 @@ class censusApp
             ),
             array(
                 'label' => 'Housing variables',
-                'desc' => 'Please enter the housing variables, for more info <a href="http://api.census.gov/data/2010/sf1/variables.html">Census Variables</a>.',
+                'desc' => 'Please enter the housing variables, for more info <a href="http://api.census.gov/data/2010/sf1/variables.html" target="_blank">Census Variables</a>.',
                 'id' => $prefix . '_hs_variables',
                 'type' => 'repeatable'
             )
